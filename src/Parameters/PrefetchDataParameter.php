@@ -59,7 +59,7 @@ class PrefetchDataParameter implements ParameterInterface, ExpandsInputTypeParam
 
             $result = $prefetchBuffer->getResult($source);
             // clear internal storage
-            $prefetchBuffer->purgeResult($source);
+            //$prefetchBuffer->purgeResult($source);
             return $result;
         });
     }
